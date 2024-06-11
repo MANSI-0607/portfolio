@@ -17,7 +17,9 @@ body{
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  /* background-color: #121212 !important; */
+  background: rgb(0,20,36);
+background: radial-gradient(circle, rgba(0,20,36,1) 0%, rgba(9,49,121,1) 60%, rgba(0,194,255,1) 100%);
   color: white !important;
 
 }
@@ -209,7 +211,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/banner-bg.png');
+ 
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -218,7 +220,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgba(62, 8, 41, 0.5) -5.91%, rgba(189, 53, 210, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -257,25 +259,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-.banner img {
-  animation: updown 4s linear infinite;
+.mypic{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
 }
-@keyframes updown {
-    0% {
-        transform: translateY(-20px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(-20px);
-    }
-}
+
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
 /* skills */
-.skill{
+.skills{
   padding: 0 0 50px 0;
   position: relative;
 }
