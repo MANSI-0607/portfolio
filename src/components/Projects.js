@@ -10,18 +10,18 @@ import TrackVisibility from 'react-on-screen';
 const Projects = () => {
     const projects = [
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "ZCoder",
+          description: "",
           imgUrl: projImg1,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "CampusOLX",
+          description: "",
           imgUrl: projImg2,
         },
         {
-          title: "Business Startup",
-          description: "Design & Development",
+          title: "Web Crawler-Short URL",
+          description: "",
           imgUrl: projImg3,
         },
         {
