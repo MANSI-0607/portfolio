@@ -1,0 +1,88 @@
+.Timeline {
+    margin-top: 5vh;
+   
+    height: 100%;
+    width: 85%;
+    
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #60bfe4 0%, #105a7c 100%);
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+      rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+      rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  }
+  
+  .timeline-heading {
+    font-size: 45px;
+      font-weight: 700;
+    text-align: center;
+  
+    color: #feffff;
+  }
+  
+  .verticalcompo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .vertical-timeline-element--work .vertical-timeline-element-content,
+  .vertical-timeline-element--education .vertical-timeline-element-content {
+    transform: translateY(0);
+    box-shadow: none;
+    transition: transform 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .vertical-timeline-element--work .vertical-timeline-element-content:hover,
+  .vertical-timeline-element--education .vertical-timeline-element-content:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .vertical-timeline-element-date {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .vertical-timeline-element-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .vertical-timeline-element-subtitle {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .vertical-timeline-element--work p {
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .h1 {
+      font-size: 35px;
+    }
+  
+    .vertical-timeline-element-date,
+    .vertical-timeline-element-title,
+    .vertical-timeline-element-subtitle,
+    .vertical-timeline-element--work p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .h1 {
+      font-size: 28px;
+    }
+  
+    .vertical-timeline-element-date,
+    .vertical-timeline-element-title,
+    .vertical-timeline-element-subtitle,
+    .vertical-timeline-element--work p {
+      font-size: 12px;
+    }
+  }
+  

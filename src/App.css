@@ -69,7 +69,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #104261;
+  background-color: #0e3954;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -269,7 +269,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 /* skills */
 .skills{
-  padding: 0 0 50px 0;
+  padding: 0 0 40px 0;
   position: relative;
 }
 .skill-bx{
@@ -277,9 +277,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: linear-gradient(153deg, rgba(45,222,211,1) 0%, rgba(48,151,222,1) 48%, rgba(15,92,158,1) 100%);
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
-  margin-top: -60px;
-  font-size: 19px;
+  padding: 15px 30px;
+  margin-top: -50px;
+  font-size: 17px;
 }
 .skill-bx h2{
   font-weight: 600;
@@ -321,7 +321,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 /************ Projects Css ************/
 .project {
-  padding: 50px 0;
+  padding: 30px 0;
   position: relative;
   background-color: rgb(1, 11, 27);
 }
@@ -355,7 +355,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 17px 0;
   color: #fff;
   width: 100%;
-  font-size: 17px;
+  font-size: 16px;
   letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;
@@ -397,6 +397,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  
+  width: 100%;
+  max-width: 300px; /* Adjust this value to control card width */
+  margin: 0 auto; 
 }
 .proj-imgbx::before {
   content: "";
@@ -419,6 +423,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
+
 }
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
@@ -435,6 +440,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
+}
+.proj-imgbx img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+.proj-txtx {
+  padding: 10px; /* Adjust padding to reduce card height */
 }
 .background-image-right {
   top: 20%;
@@ -520,7 +532,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 30px 0 30px 0;
-  background-image: url('./assets/footer-bg.png');
+  background-color: #061a26;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -537,3 +549,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
