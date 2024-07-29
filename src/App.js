@@ -7,7 +7,6 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Timeline from './components/Timeline';
 
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
      <NavBar></NavBar>
      <Banner></Banner>
      <Skills></Skills>
-     {/* <Timeline></Timeline> */}
      <Projects></Projects>
      <Contact></Contact>
      <Footer></Footer>

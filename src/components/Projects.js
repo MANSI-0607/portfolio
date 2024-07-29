@@ -1,12 +1,9 @@
 import React from 'react'
 import ProjectCard from './ProjectCard';
 import { Container,Row,Col,Nav,Tab } from 'react-bootstrap';
-import projImg1 from '../assets/zcoder.jpeg';
-import projImg2 from '../assets/campusolx.jpeg';
-import projImg3 from '../assets/web.jpeg';
-import projImg4 from '../assets/weather.jpeg';
-import projImg5 from '../assets/todo.jpeg';
-import projImg6 from '../assets/calc.jpeg';
+import projImg1 from '../assets/project-img1.png';
+import projImg2 from '../assets/project-img2.png';
+import projImg3 from '../assets/project-img3.png';
 import colorSharp2 from "../assets/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -28,19 +25,19 @@ const Projects = () => {
           imgUrl: projImg3,
         },
         {
-          title: "Weather App",
-          description: "",
-          imgUrl: projImg4,
+          title: "Business Startup",
+          description: "Design & Development",
+          imgUrl: projImg1,
         },
         {
-          title: "TO-DO LIST",
-          description: "",
-          imgUrl: projImg5,
+          title: "Business Startup",
+          description: "Design & Development",
+          imgUrl: projImg2,
         },
         {
-          title: "Calculator",
-          description: "",
-          imgUrl: projImg6,
+          title: "Business Startup",
+          description: "Design & Development",
+          imgUrl: projImg3,
         },
       ];
   return (
@@ -53,7 +50,7 @@ const Projects = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
            
-            <p>Here are some of my projects.</p>
+            <p>Explore some of the projects by me.</p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

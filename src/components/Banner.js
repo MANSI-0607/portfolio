@@ -59,7 +59,7 @@ const Banner = () => {
                 <h1>{`Hi! I'm Mansi.`}<br></br> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Competitive Programmer", "Web Developer", "Tech Enthusiast" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Welcome to my corner of the web! I'm Mansi Gupta, a passionate undergraduate student pursuing my B.Tech at the Indian Institute of Technology, Guwahati.With a passion for programming and problem-solving, I thrive on creating innovative solutions and diving into challenging projects. As a keen web developer, I love bringing ideas to life through code, crafting engaging user experiences and functional designs.
                      Explore my portfolio to see my latest projects and connect with me to collaborate on exciting ventures!</p>
-                  <button onClick={() => console.log('connect')}>See my resume <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
