@@ -33,6 +33,7 @@ const Skills = () => {
       <Container>
         <Row>
           <Col>
+          
             <div className='skill-bx'>
               <h2>
                 Coding Platforms
